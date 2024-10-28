@@ -1,0 +1,75 @@
+/*Cv.css*/
+#cv {
+	border: 3px solid var(--light);
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+/*typography CV*/
+.item p {
+	max-width: 60ch;
+}
+#cv p {
+	margin-bottom: 0;
+}
+#cv h2 {
+	margin-bottom: 3rem;
+}
+#cv h3 {
+	color: var(--orange);
+	display: flex;
+	gap: 0.5rem;
+}
+#cv h4 {
+	color: var(--light);
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+	line-height: 120%;
+}
+#cv h5 {
+	line-height: 120%;
+}
+.date {
+	font-family: "Josefin Sans";
+}
+.react-icons-cv {
+	font-size: 1.6rem;
+}
+
+/*separating content in columns*/
+.sub-part {
+	flex: 0 0 45%;
+}
+
+.item {
+	margin: 0 0 2rem 0;
+}
+
+.close-button {
+	align-self: center;
+}
+
+
+@media (max-width: 710px) {
+	#cv {
+		padding: 1rem;
+	}
+	#cv .row {
+		gap: 1.3rem;
+	}
+    #cv h3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.react-icons-cv {
+		font-size: 3rem;
+	}
+}
+@media (max-width: 450px) {
+	.react-icons-cv {
+		font-size: 5rem;
+	}
+}

@@ -1,0 +1,104 @@
+/*About.css*/
+#about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about h2 {
+	align-self: flex-start;
+}
+
+.laptop {
+	display: flex;
+	flex-direction: column;
+	font-size: 18rem;
+}
+
+/*COMPETENCE SQUARES*/
+.comp-container {
+	margin-bottom: 2rem;
+	border: 3px var(--light) solid;
+	padding: 2rem;
+	background-color: black;
+	border-radius: 1rem;
+}
+.row-comp {
+	display: flex;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+/*heading and heading icon*/
+h4 .react-icons {
+	font-size: 1.4rem;
+}
+h4,
+h4 .react-icons {
+	color: var(--orange);
+}
+.react-icons-grey{
+	opacity:40%;
+}
+.stars{
+	white-space: nowrap;
+}
+
+
+/*Individual comp item*/
+.comp {
+	display: flex;
+	gap: 0.3rem;
+	flex: 0 0 185px;
+}
+.comp p {
+	margin-bottom: 0;
+	align-self: center;
+}
+
+.comp .react-icons {
+	font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+	.comp-container {
+		padding: 1rem;
+	}
+	.row-comp {
+		gap: 1rem;
+	}
+	.comp .react-icons {
+		font-size: 1.5rem;
+	}
+
+	.comp {
+		display: flex;
+		gap: 0.3rem;
+		flex: 0 0 175px;
+	}
+}
+
+@media (max-width: 710px) {
+	.col,
+	.laptop {
+		align-items: center;
+	}
+}
+
+@media (max-width: 520px) {
+	.comp-container {
+		padding: 0.8rem;
+	}
+
+	.comp {
+		flex: 0 0 150px;
+		align-items: center;
+	}
+}
+
+@media (max-width: 470px) {
+	.laptop {
+		font-size: 15rem;
+	}
+}
+

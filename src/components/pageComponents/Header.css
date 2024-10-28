@@ -1,0 +1,161 @@
+/*Header.css*/
+
+/*Animation on background image*/
+#header {
+	display: flex;
+	background-image: url(./../../images/c_mer_vatten_sned_700.webp);
+	background-repeat: no-repeat;
+	background-color: var(--blue);
+	background-position: 90% 50%;
+	animation: mymove 5s;
+	height: 35rem;
+}
+
+@keyframes mymove {
+	from {
+		background-position: 80% 60%;
+	}
+
+	to {
+		background-position: 90% 50%;
+	}
+}
+
+#header-background {
+	display: flex;
+	background-color: var(--darktrans);
+	height: calc(100% - 4rem);
+	width: min-content;
+	margin-left: 3.3rem;
+	padding: 2rem;
+}
+
+#header-content {
+	display: flex;
+	flex-direction: column;
+	align-self: end;
+	gap: 2rem;
+}
+
+/*Separating style on h1*/
+h1 {
+	align-self: flex-end;
+	line-height: 90%;
+}
+h1 #cecilia {
+	font-weight: 370;
+	white-space: nowrap;
+	display: block;
+	color: var(--orange);
+}
+
+h1 #webb {
+	font-size: 1.6rem;
+	font-weight: 250;
+	
+}
+
+.buttons {
+	display: flex;
+	gap: 2rem;
+}
+
+@media (max-width: 790px) {
+	#header {
+		background-image: url(./../../images/c_mer_vatten_sned_right_500.webp);
+		background-position: 130% -10%;
+	}
+
+	@keyframes mymove {
+		from {
+			background-position: 140% -20%;
+		}
+		to {
+			background-position: 130% -10%;
+		}
+	}
+}
+@media (max-width: 768px) {
+	#header-background {
+		margin-left: 2rem;
+	}
+}
+@media (max-width: 650px) {
+	#header {
+		background-position: 150% -50%;
+	}
+
+	@keyframes mymove {
+		from {
+			background-position: 160% -60%;
+		}
+		to {
+			background-position: 150% -50%;
+		}
+	}
+}
+@media (max-width: 600px) {
+	/*No longer animation on background image */
+	#header {
+		height: 45rem;
+		animation: none;
+		background-position: -30% 150%;
+		background-image: url(./../../images/c_mer_vatten_sned_straighter_left_600.webp);
+	}
+	#header-background {
+		align-self: flex-end;
+		padding: 2rem;
+		width: min-content;
+		height: 50%;
+		margin-left: 0;
+		margin-bottom: 2rem;
+	}
+	#header-content {
+		align-self: center;
+	}
+}
+@media (max-width: 530px) {
+	#header-background {
+		padding: 1rem;
+	}
+}
+
+@media (max-width: 470px) {
+	#header {
+		background-image: url(./../../images/c_mer_vatten_sned_left_500.webp);
+
+		background-position: top;
+	}
+	#header-background {
+		flex-direction: column;
+		align-self: flex-end;
+		width: 100%;
+		height: fit-content;
+		margin-left: 0;
+		margin-bottom: 0;
+		padding: 1rem;
+	}
+	#header-content {
+		padding: 1.5rem 0;
+
+		justify-self: center;
+	}
+
+	h1 #cecilia {
+		font-size: 2rem;
+	}
+
+	h1 #webb {
+		font-size: 1.4rem;
+	}
+	.buttons {
+		gap: 1.5rem;
+	}
+}
+@media (max-width: 450px) {
+	#header {
+		height: 45rem;
+		background-image: url(./../../images/c_mer_vatten_sned_left_400_500.webp);
+		background-position: top;
+	}
+}

@@ -1,0 +1,16 @@
+/*Contact.css*/
+#contact .intro {
+	justify-content: space-between;
+    gap:2rem;
+}
+#contact .intro .img {
+	max-width: 300px;
+}
+.copy{
+	text-align: center;
+}
+@media (max-width: 710px) {
+	#contact .intro .img {
+		align-self: center;
+	}
+}

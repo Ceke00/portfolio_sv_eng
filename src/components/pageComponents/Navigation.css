@@ -1,0 +1,182 @@
+/*Navigation.css*/
+#navbar {
+	font-family: "Josefin Sans", "Quicksand", sans-serif;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--darkestblue);
+	color: var(--light);
+	position: sticky;
+	padding: 1rem 2.8rem;
+	top: 0;
+	z-index: 1000;
+	font-weight:300;
+	box-shadow: var(--dark) 0px 3px 3px 0px;
+}
+
+#nav-links {
+	display: flex;
+	gap: 1rem;
+}
+
+/*Scrolling possible if hamburger menu is open on big screens (zooming)*/
+#nav-links.open {
+	overflow-y: auto;
+	top: 5.7rem;
+	height: calc(100vh - 5.7rem);
+}
+
+/*Inactivates scroll on body when hamburger menu open*/
+.no-scroll {
+	overflow: hidden;
+}
+
+#nav-links li a,
+.nav-logo,
+.skip-link,
+.menu-toggle {
+	padding: 0.3rem 0.5rem;
+	border: solid transparent 3px;
+}
+
+/*Hiding skip-link*/
+.skip-link {
+	position: absolute;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1.2rem;
+	top: 0;
+	left: 30%;
+	background: var(--dark);
+	color: var(--light);
+	font-weight: 300;
+	padding: 1rem;
+	z-index: 2000;
+	transform: translateY(-120%);
+	transition: transform 0.3s ease;
+}
+/*Showing skip-link*/
+.skip-link:focus-visible {
+	transform: translateY(0.5rem);
+}
+
+.nav-logo {
+	display: flex;
+	justify-items: center;
+	cursor: pointer;
+}
+
+#nav-links li a:hover {
+	border-bottom: solid var(--light) 3px;
+	cursor: pointer;
+}
+
+#nav-links li a:focus-visible,
+.nav-logo:focus-visible,
+.skip-link:focus-visible,
+.menu-toggle:focus-visible {
+	outline: dotted var(--orange) 3px;
+}
+
+/*Scrolling to a specific section marks link in navbar*/
+#nav-links li .active {
+	border-bottom: solid var(--light) 3px;
+}
+
+.menu-toggle {
+	display: none;
+	background: none;
+	border: none;
+	font-size: 2rem;
+	color: var(--light);
+	cursor: pointer;
+}
+
+#header:focus,
+#about:focus,
+#portfolio:focus,
+#contact:focus,
+#main:focus {
+	outline-color: var(--orange);
+	scroll-margin-top: 5.7rem;
+}
+#header:focus {
+	scroll-margin-top: 0;
+}
+
+@media (max-width: 768px) {
+	/*Changing to hamburger menu*/
+	#navbar {
+		padding: 0.5rem 1.5rem;
+	}
+	.skip-link {
+		left: 0.2rem;
+	}
+	.menu-toggle {
+		display: flex;
+		z-index: 2000;
+	}
+
+	#nav-links {
+		display: none;
+		gap: 0rem;
+		flex-direction: column;
+		position: fixed;
+		overflow-y: auto;
+		top: 5.7rem;
+		right: 0;
+		background-color: var(--darkestblue);
+		width: 100%;
+		height: calc(100vh-5.7rem);
+		text-align: center;
+		 transition: transform 0.4s ease-in-out; 
+		transform: translateX(100%);
+		z-index: 1000;
+		font-size: 1.6rem;
+	}
+
+	#nav-links.open {
+		display: flex;
+		transform: translateX(0);
+		
+	}
+
+	#nav-links li a:hover {
+		border-bottom: solid transparent 3px;
+	}
+
+	#nav-links li .active {
+		border-bottom: solid transparent 3px;
+		background-color: var(--light);
+		color: var(--darkestblue);
+	}
+	#nav-links li .active:focus-visible {
+		border: dotted var(--darkestblue) 3px;
+	}
+	#nav-links li a:focus-visible {
+		border: dotted var(--orange) 3px;
+		outline: none;
+	}
+		
+	#nav-links li a {
+		display: block;
+		padding: 1.5rem;
+	}
+}
+
+@media (max-width: 530px) {
+	#navbar {
+		padding: 0.5rem 0.5rem;
+	}
+}
+@media (max-width: 470px) {
+	.nav-logo,
+	.menu-toggle {
+		padding: 0rem;
+		border: solid transparent 3px;
+	}
+	#nav-links.open {
+		top: 5.1rem;
+		height: calc(100vh - 5.1rem);
+	}
+}

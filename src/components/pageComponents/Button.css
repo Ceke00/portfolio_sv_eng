@@ -1,0 +1,51 @@
+/*Button.css*/
+.button {
+	font-family: "Josefin Sans";
+	font-size: 1.1rem;
+	font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	border-radius: 50%;
+	width: 7rem;
+	height: 7rem;
+	text-align: center;
+	border: solid var(--light) 3px;
+	cursor: pointer;	
+	color:var(--light);
+}
+
+.button:hover {
+	background-color: var(--light);
+	border: solid black 3px;
+	color: black;
+}
+.button:focus-visible {
+	background-color: var(--orange);
+	 border: dotted var(--dark) 3px; 
+	color: var(--dark);
+	outline: dotted var(--light) 3px;
+}
+
+.react-icons {
+	color: var(--light);
+	font-size: 2em;
+}
+
+.button:hover .react-icons,
+.button:focus-visible .react-icons {
+	color: black;
+}
+
+@media (max-width: 470px) {
+	.button {
+		font-size: 1rem;
+		width: 6rem;
+		height: 6rem;
+	}
+	.react-icons {
+		font-size: 1.5em;
+	}
+}
