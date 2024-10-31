@@ -42,7 +42,9 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="copy">{t("contact.copyright")}</div>
+        <div className="copy">
+          <p>&copy; Cecilia Egevad, 2024</p>
+        </div>
       </section>
     </>
   );
