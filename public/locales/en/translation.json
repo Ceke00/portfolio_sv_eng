@@ -1,0 +1,426 @@
+{
+  "nav": {
+    "skip_link": {
+      "text": "Skip to main content"
+    },
+    "logo": {
+      "alt": "To homepage Cecilia Egevad"
+    },
+    "menu_toggle": {
+      "aria-label_open": "Open menu",
+      "aria-label_close": "Close menu"
+    },
+    "links": [
+      {
+        "text": "Home"
+      },
+      {
+        "text": "About"
+      },
+      {
+        "text": "Portfolio"
+      },
+      {
+        "text": "Contact"
+      }
+    ]
+  },
+  "header": {
+    "title": "Web Developer with a broad university degree",
+    "buttons": [
+      {
+        "text": "About me",
+        "anchor": "about",
+        "down": true
+      },
+      {
+        "text": "Portfolio",
+        "anchor": "portfolio",
+        "down": true
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "intro": {
+      "paragraphs": [
+        "My name is Cecilia Egevad and I have a broad education in web development. Previously, I am also a licensed speech therapist and I am particularly passionate about making the web accessible to everyone.",
+        "I am now looking for new challenges where I can continue to grow as a developer. I am curious and enjoy a solution-focused approach, preferably in a team."
+      ]
+    },
+    "career_change": {
+      "title": "Career change from speech therapist to web developer",
+      "paragraphs": [
+        "For several years I worked as a speech therapist in child and youth habilitation. In 2020, I decided to try something new and started taking individual courses in <strong>graphic design and programming</strong>. For example, I studied the following:"
+      ],
+      "list": ["Python", "JAVA", "Digital image processing (Photoshop(."]
+    },
+    "accessibility_course": {
+      "title": "Exciting course on digital accessibility",
+      "paragraphs": [
+        "In 2021, I took an extra rewarding course on <strong>digital accessibility</strong> – Universal design of digital accessibility. The course included both practical and theoretical elements in areas such as:"
+      ],
+      "list": [
+        "writing in plain language",
+        "user-centered design",
+        "user testing",
+        "current legislation in the field."
+      ]
+    },
+    "picture_self_portrait": {
+      "figure_caption": "Self-portrait in Illustrator from a graphic design course.",
+      "alt": "Smiling woman in water"
+    },
+    "sep_paragraph": " You can see examples of projects I have created in my portfolio:",
+    "university_exam": {
+      "title": "University degree in web development",
+      "paragraphs": [
+        "After taking several individual courses, I wanted to tie everything together. In the fall of 2022, I therefore started the Webmaster program (120 credits) at University West.",
+        "The education is broad and includes everything from <strong>front-end and back-end to UX design</strong>. During the education, I have, for example, created pages using React, Angular, and Vue, but also designed databases and created my own APIs.",
+        "My thesis was titled “Digital accessibility at Swedish universities and colleges”. My partner and I conducted both <strong>manual and automatic accessibility testing</strong> at all state higher education institutions in Sweden."
+      ]
+    },
+    "skills": {
+      "title": "Skill level in different areas",
+      "intro": "Here is an overview of what I can do, divided by skill level.",
+      "categories": [
+        {
+          "level": "Good knowledge",
+          "aria-label": "Three out of three stars",
+          "description": "In the following areas, I have in-depth knowledge through work in several projects:",
+          "skills": [
+            "HTML 5",
+            "CSS 3",
+            "Javascript",
+            "Digital accessibility",
+            "Figma"
+          ]
+        },
+        {
+          "level": "Intermediate knowledge",
+          "aria-label": "Two out of three stars",
+          "description": "I have created some projects in the following areas:",
+          "skills": [
+            "React",
+            "Bootstrap",
+            "SEO",
+            "Databases",
+            "SQL",
+            "User testing",
+            "WordPress",
+            "Elementor",
+            "Illustrator",
+            "Photoshop",
+            "Git / Github"
+          ]
+        },
+        {
+          "level": "Basic knowledge",
+          "aria-label": "One out of three stars",
+          "description": "I have learned the basics and created simpler projects in the following areas:",
+          "skills": [
+            "JAVA",
+            "Python",
+            "PHP",
+            "ASP.NET C#",
+            "React Native",
+            "MongoDB",
+            "Vue",
+            "Angular",
+            "jQuery",
+            "SCSS",
+            "Indesign",
+            "C#"
+          ]
+        }
+      ]
+    },
+    "work_during_studies": {
+      "title": "Work during studies",
+      "paragraphs": [
+        "Alongside my studies, I have also learned a lot through the jobs I have had on the side. For example, I have worked with subtitling and accessibility adaptation of image and text material.",
+        "In the final year of my education, I also sat on the institution's program council as a student representative, which gave an interesting insight into the university's development work."
+      ]
+    },
+    "button_show_cv": {
+      "text_closed": "Show CV",
+      "text_opened": "Hide CV"
+    }
+  },
+  "cv": {
+    "title": "Current CV",
+    "studies": {
+      "title": "Selected Academic Achievements",
+      "programs": {
+        "title": "Programs",
+        "content": [
+          {
+            "title": "Webmaster (120 credits)",
+            "date": "September 2022 – June 2024",
+            "institution": "University West"
+          },
+          {
+            "title": "Speech Therapy Program (240 credits)",
+            "date": "September 2004 – January 2010",
+            "institution": "Lund University"
+          }
+        ]
+      },
+      "courses": {
+        "title": "Individual Courses",
+        "content": [
+          {
+            "title": "Introduction to Programming in Python",
+            "date": "June 2022 – August 2022",
+            "institution": "University of Gävle"
+          },
+          {
+            "title": "Web Technology 1, 2 & 3",
+            "date": "January 2022 – October 2022",
+            "institution": "Linnaeus University"
+          },
+          {
+            "title": "Graphic Design: Universal Design of Digital Accessibility",
+            "date": "August 2021 – January 2022",
+            "institution": "Mid Sweden University"
+          },
+          {
+            "title": "Introduction to Programming with Java",
+            "date": "June 2021 – August 2021",
+            "institution": "Uppsala University"
+          },
+          {
+            "title": "Digital Image Processing (Photoshop)",
+            "date": "January 2021 – June 2021",
+            "institution": "Linnaeus University"
+          },
+          {
+            "title": "Graphic Design & Graphic Design for the Web",
+            "date": "August 2020 – January 2021",
+            "institution": "Kristianstad University"
+          },
+          {
+            "title": "Spanish, General Course",
+            "date": "January 2003 – June 2003",
+            "institution": "Lund University"
+          }
+        ]
+      }
+    },
+    "work_experience": {
+      "title": "Selected Work Experience",
+      "positions": [
+        {
+          "title": "Student Representative",
+          "date": "August 2023 – June 2024",
+          "institution": "Student Union at University West",
+          "description": "Represented students from my institution in the program council's development work of university programs."
+        },
+        {
+          "title": "Student Assistant",
+          "date": "February 2022 – February 2023",
+          "institution": "Region Skåne",
+          "description": "Development, processing, and administration of text, graphics, and film for digital intervention within 1177's Support and Treatment. Accessibility adaptation of all materials."
+        },
+        {
+          "title": "Subtitler",
+          "date": "January 2021 – September 2022",
+          "institution": "Spoken Oy (remote)",
+          "description": "Subtitling of film material (Swedish – Swedish)."
+        },
+        {
+          "title": "Speech Therapist",
+          "date": "September 2011 – May 2016",
+          "institution": "Region Örebro",
+          "description": "Teamwork at the Child and Youth Habilitation in Karlskoga. Assessment and treatment of children aged 0–18 years with speech, language, and communication difficulties."
+        },
+        {
+          "title": "Speech Therapist",
+          "date": "August 2010 – September 2011",
+          "institution": "Region Gotland",
+          "description": "Teamwork at the Habilitation in Visby. Assessment and treatment of children aged 0–12 years with speech, language, and communication difficulties. Treatment groups."
+        }
+      ]
+    },
+    "abroad_experience": {
+      "title": "International Experience",
+      "countries": [
+        {
+          "country": "Spain",
+          "experiences": [
+            {
+              "title": "Universidad de Alcalá",
+              "date": "September 2003 – June 2004",
+              "description": "Studied Spanish at an advanced level."
+            },
+            {
+              "title": "Academia Mester (Granada)",
+              "date": "September 2002 – December 2002",
+              "description": "Studied Spanish at an intermediate level."
+            }
+          ]
+        },
+        {
+          "country": "Japan",
+          "experiences": [
+            {
+              "title": "Ryukoku University",
+              "date": "March 2007 – January 2008",
+              "description": "Studied Japanese and Japanese culture."
+            },
+            {
+              "title": "International Exchange Center Osaka",
+              "date": "January 2007 – March 2007",
+              "description": "Studied Japanese at a beginner level."
+            }
+          ]
+        }
+      ]
+    },
+    "language_skills": {
+      "title": "Language Skills",
+      "languages": [
+        {
+          "level": "Native Language",
+          "languages": [
+            {
+              "name": "Swedish",
+              "description": "Very good knowledge in speaking and writing."
+            }
+          ]
+        },
+        {
+          "level": "High Level",
+          "languages": [
+            {
+              "name": "Spanish",
+              "description": "Good knowledge in speaking and writing. Speak Spanish at home."
+            },
+            {
+              "name": "English",
+              "description": "Good knowledge in speaking and writing."
+            }
+          ]
+        }
+      ]
+    },
+    "button_show_cv": {
+      "text_opened": "Hide CV"
+    }
+  },
+
+  "common": {
+    "opens_new_window": "Opens in new window",
+    "link_to_project": "Link to the project:"
+  },
+
+  "portfolio": {
+    "title": "Portfolio",
+    "intro": "Here is a selection of the projects I have created in recent years. Feel free to click on the links and check out the pages.",
+    "projects": [
+      {
+        "title": "World Facts – a flag app",
+        "year": "2024",
+        "tags": ["React", "API", "User Testing", "React Bootstrap"],
+        "description": [
+          "The flag app is my first React app. The purpose was to create an app for a specific target group using a JavaScript framework and a REST API.",
+          "The flag app retrieves data via <strong>the REST Countries API</strong>. The app was designed for the target group \"curious school children who want to learn more about flags\".",
+          "The user can practice flags both by flipping flag cards and through a flag quiz.",
+          "During the development, I conducted <strong>user tests on the target group</strong>. Based on this, I clarified, for example, the feedback from the quiz by combining image and text."
+        ],
+        "image_alt": "The flag app is displayed on a tablet, a laptop, and a mobile phone.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/JSR-proj/build/",
+        "project_link_text": "To the flag app World Facts"
+      },
+      {
+        "title": "Ceci's Design – animation with jQuery",
+        "year": "2023",
+        "tags": ["HTML", "CSS", "jQuery"],
+        "description": [
+          "The purpose of this project was to create animations using jQuery. I added jQuery code to a simple dummy page from a previous assignment.",
+          "My idea was to add <strong>subtle animation</strong> that does not distract the user unnecessarily."
+        ],
+        "image_alt": "The website is displayed on a tablet, a laptop, and a mobile phone.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/WUH_original_JQ/index.html",
+        "project_link_text": "To Ceci's Design"
+      },
+      {
+        "title": "Association Page with Full CRUD",
+        "year": "2023",
+        "tags": ["PHP", "Bootstrap", "Databases"],
+        "description": [
+          "The purpose of this project was to create a part of an association's website using PHP. I styled it with Bootstrap.",
+          "The requirements for the task were as follows:"
+        ],
+        "list": [
+          "The homepage should list the association's five upcoming activities. Only current activities should be fetched from the database",
+          "The website should have a password-protected admin page with two different permission levels. The administrator with the highest permission should be able to add, view, update, and delete activities (CRUD).",
+          "The page should be protected against SQL injections and have hashed passwords"
+        ],
+        "image_alt": "The administration page and homepage of the website are displayed on two laptops.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/HGF_Rabylund_VG/index.php",
+        "project_link_text": "To Association Page"
+      },
+      {
+        "title": "Birgitta's Blacksmithing – a SEO project",
+        "year": "2024",
+        "tags": ["HTML", "CSS", "SEO", "AI"],
+        "description": [
+          "In this project, the purpose was to create a website for the fictional blacksmith Birgitta with a focus on search engine optimization (SEO).",
+          "My goal was primarily to create relevant content based on the intended target group and the company's values.",
+          "Most of the images on the page were created using Bing's AI tool Image Creator. However, I wrote the text myself. I also worked with, for example:"
+        ],
+        "list": [
+          "analysis of relevant keywords",
+          "image optimization and alt texts",
+          "Google Search Console",
+          "SEO testing tools."
+        ],
+        "image_alt": "The Birgitta's Blacksmithing website is displayed on a tablet, a laptop, and a mobile phone.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/birgittas_klensmide/",
+        "project_link_text": "To Birgitta's Blacksmithing"
+      },
+      {
+        "title": "Munamii Cakery - a Tailwind Project",
+        "year": "2024",
+        "tags": ["React", "Tailwind", "AI"],
+        "description": [
+          "In this frontend project, the goal was to create a website for the company Munamii Cakery, which produces cupcakes and wedding cakes.",
+          "The app is built with React and styled with Tailwind. All images and texts on the site are AI-generated using various tools."
+        ],
+        "image_alt": "The Munamii Cakery website displayed on a tablet, a laptop, and a mobile phone.",
+        "project_link": "https://ceke00.github.io/munamii-cakery/",
+        "project_link_text": "To Munamii Cakery"
+      },
+
+      {
+        "title": "Portfolio Page",
+        "year": "2024",
+        "tags": ["React", "CSS", "Figma"],
+        "description": [
+          "The purpose of this portfolio page is to present myself and what I have learned in recent years.",
+          "In the first step of the design process, I created a prototype in Figma. The illustrated images on the page were created earlier when I took a course in graphic design.",
+          "Based on the prototype in Figma, I then built the page in React."
+        ],
+        "image_alt": "The portfolio page is displayed on a tablet, a laptop, and a mobile phone."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Contact",
+    "intro": {
+      "paragraphs":[{
+      "paragraph": "Contact me via ","link":"https://www.linkedin.com/in/cecilia-egevad/",
+      "link_text": "my LinkedIn page."},
+      {"paragraph":"Visit ",
+      "link":"https://github.com/Ceke00/",
+      "link_text":"my Github page."}
+      ]
+    },
+    "picture_at": {
+      "alt": "Cecilia Egevad's logo is an at symbol that looks hand-drawn."
+    },
+    "copyright": "&copy; Cecilia Egevad, 2024"
+  }
+}

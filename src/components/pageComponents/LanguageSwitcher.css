@@ -1,0 +1,22 @@
+.languageButton {
+  background-color: var(--darkestblue);
+  border: var(--lightblue) solid 1px;
+  box-shadow: none;
+  color: var(--lightblue);
+  cursor: pointer;
+  padding:0.3rem 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 2rem;
+}
+.languageButton:hover, .languageButton:focus-visible {
+ background-color: var(--lightblue);
+  border: var(--blue) solid 1px;
+  color:var(--darkestblue);
+}
+.languageButton:focus-visible{
+     outline: dotted var(--orange) 3px;
+      
+}
+.icon {
+  margin-right:0.2rem;
+}

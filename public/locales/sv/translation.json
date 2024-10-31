@@ -1,0 +1,430 @@
+{
+  "nav": {
+    "skip_link": {
+      "text": "Hoppa till huvudinnehållet"
+    },
+    "logo": {
+      "alt": "Till startsida Cecilia Egevad"
+    },
+    "menu_toggle": {
+      "aria-label_open": "Öppna menyn",
+      "aria-label_close": "Stäng menyn"
+    },
+    "links": [
+      {
+        "text": "Start"
+      },
+      {
+        "text": "Om mig"
+      },
+      {
+        "text": "Portfolio"
+      },
+      {
+        "text": "Kontakt"
+      }
+    ]
+  },
+  "header": {
+    "title": "Webbutvecklare med bred högskoleexamen",
+    "buttons": [
+      {
+        "text": "Om mig",
+        "anchor": "about",
+        "down": true
+      },
+      {
+        "text": "Portfolio",
+        "anchor": "portfolio",
+        "down": true
+      }
+    ]
+  },
+  "about": {
+    "title": "Om mig",
+    "intro": {
+      "paragraphs": [
+        "Jag heter Cecilia Egevad och har en bred utbildning inom webbutveckling. Sedan tidigare är jag även legitimerad logoped och jag brinner lite extra för att göra webben tillgänglig för alla.",
+        "Nu söker jag nya utmaningar där jag kan få fortsätta växa som utvecklare. Jag är vetgirig och trivs med ett lösningsfokuserat arbetssätt, gärna i team."
+      ]
+    },
+    "career_change": {
+      "title": "Karriärväxling från logoped till webbutvecklare",
+      "paragraphs": [
+        "Under flera år arbetade jag som logoped inom barn- och ungdomshabiliteringen. År 2020 bestämde jag mig för att prova något nytt och började läsa fristående kurser inom <strong> grafisk design och programmering</strong>. Jag läste till exempel följande:"
+      ],
+      "list": ["Python", "JAVA", "Digital bildbehandling (Photoshop)."]
+    },
+    "accessibility_course": {
+      "title": "Spännande kurs om digital tillgänglighet",
+      "paragraphs": [
+        "År 2021 läste jag en extra givande kurs om <strong>digital tillgänglighet</strong> – Universell utformning av digital tillgänglighet. Kursen omfattade både praktiska och teoretiska moment inom områden såsom:"
+      ],
+      "list": [
+        "att skriva klarspråk",
+        "användarcentrerad design",
+        "användartestning",
+        "aktuell lagstiftning inom området."
+      ]
+    },
+    "picture_self_portrait": {
+      "figure_caption": "Självporträtt i Illustrator från kurs i grafisk design.",
+      "alt": "Leende kvinna i vatten"
+    },
+    "sep_paragraph": " Du kan se exempel på projekt jag skapat i min portfolio:",
+    "university_exam": {
+      "title": "Högskoleexamen inom webbutveckling",
+      "paragraphs": [
+        "Efter att ha läst flera fristående kurser ville jag knyta ihop säcken. Hösten 2022 började jag därför på programmet Webmaster (120hp) vid Högskolan Väst.",
+        "Utbildningen är bred och innehåller alltifrån <strong> front-end och back-end till UX-design</strong>. Under utbildningen har jag till exempel skapat sidor med hjälp av React, Angular och Vue, men även designat databaser och skapat egna API:er.",
+        "Mitt examensarbete hade titeln “Digital tillgänglighet vid svenska högskolor och universitet”. Jag och min samarbetspartner utförde både <strong>manuell och automatisk tillgänglighetstestning </strong>på alla statliga högre lärosäten i Sverige."
+      ]
+    },
+    "skills": {
+      "title": "Kunskapsnivå inom olika områden",
+      "intro": "Här är en översikt över vad jag kan, uppdelat efter kunskapsnivå.",
+      "categories": [
+        {
+          "level": "Goda kunskaper",
+          "aria-label": "Tre av tre stjärnor",
+          "description": "Inom följande områden har jag fördjupad kunskap genom arbete i flera projekt:",
+          "skills": [
+            "HTML 5",
+            "CSS 3",
+            "Javascript",
+            "Digital tillgänglighet",
+            "Figma"
+          ]
+        },
+        {
+          "level": "Medel kunskaper",
+          "aria-label": "Två av tre stjärnor",
+          "description": "Jag har skapat några projekt inom följande områden:",
+          "skills": [
+            "React",
+            "Bootstrap",
+            "SEO",
+            "Databaser",
+            "SQL",
+            "Användartestning",
+            "WordPress",
+            "Elementor",
+            "Illustrator",
+            "Photoshop",
+            "Git / Github"
+          ]
+        },
+        {
+          "level": "Grundläggande kunskaper",
+          "aria-label": "En av tre stjärnor",
+          "description": "Jag har lärt mig grunderna och skapat enklare projekt inom följande områden:",
+          "skills": [
+            "JAVA",
+            "Python",
+            "PHP",
+            "ASP.NET C#",
+            "React Native",
+            "MongoDB",
+            "Vue",
+            "Angular",
+            "jQuery",
+            "SCSS",
+
+            "Indesign",
+            "C#"
+          ]
+        }
+      ]
+    },
+    "work_during_studies": {
+      "title": "Arbete under studietiden",
+      "paragraphs": [
+        "Parallellt med studierna har jag även lärt mig mycket genom de arbeten jag haft vid sidan av. Jag har till exempel arbetat med undertextning och tillgänglighetsanpassning av bild- och textmaterial.",
+        "Sista året på utbildningen satt jag även med vid institutionens programråd som studentrepresentant vilket gav en intressant inblick i högskolans utvecklingsarbete."
+      ]
+    },
+    "button_show_cv": {
+      "text_closed": "Visa CV",
+      "text_opened": "Dölj CV"
+    }
+  },
+  "cv": {
+    "title": "Aktuellt CV",
+    "studies": {
+      "title": "Studiemeriter i urval",
+      "programs": {
+        "title": "Program",
+        "content": [
+          {
+            "title": "Webmaster (120hp)",
+            "date": "september 2022 – juni 2024",
+            "institution": "Högskolan Väst"
+          },
+          {
+            "title": "Logopedprogrammet (240hp)",
+            "date": "september 2004 – januari 2010",
+            "institution": "Lunds universitet"
+          }
+        ]
+      },
+      "courses": {
+        "title": "Firstående kurser",
+        "content": [
+          {
+            "title": "Introduktion till programmering i Python",
+            "date": "juni 2022 – augusti 2022",
+            "institution": "Högskolan i Gävle"
+          },
+          {
+            "title": "Webbteknik 1, 2 & 3",
+            "date": "januari 2022 – oktober 2022",
+            "institution": "Linnéuniversitetet"
+          },
+          {
+            "title": "Grafisk design: Universell utformning av digital tillgänglighet",
+            "date": "augusti 2021 – januari 2022",
+            "institution": "Mittuniversitetet"
+          },
+          {
+            "title": "Inledande programmering med Java",
+            "date": "juni 2021 – augusti 2021",
+            "institution": "Uppsala universitet"
+          },
+          {
+            "title": "Digital bildbehandling (Photoshop)",
+            "date": "januari 2021 – juni 2021",
+            "institution": "Linnéuniversitetet"
+          },
+          {
+            "title": "Grafisk design & grafisk design för webben",
+            "date": "augusti 2020 – januari 2021",
+            "institution": "Högskolan Kristianstad"
+          },
+          {
+            "title": "Spanska, allmän kurs",
+            "date": "januari 2003 – juni 2003",
+            "institution": "Lunds universitet"
+          }
+        ]
+      }
+    },
+    "work_experience": {
+      "title": "Arbetslivserfarenhet i urval",
+      "positions": [
+        {
+          "title": "Studentrepresentant",
+          "date": "augusti 2023 – juni 2024",
+          "institution": "Studentkåren vid Högskolan Väst",
+          "description": "Representerade studenterna för min institution vid programrådets utvecklingsarbete av högskoleprogrammen."
+        },
+        {
+          "title": "Studentmedarbetare",
+          "date": "februari 2022 – februari 2023",
+          "institution": "Region Skåne",
+          "description": "Utveckling, bearbetning och administrering av text, grafik och film för digital intervention inom 1177:s Stöd och behandling. Tillgänglighetsanpassning av allt material."
+        },
+        {
+          "title": "Undertextare",
+          "date": "januari 2021 – september 2022",
+          "institution": "Spoken Oy (distans)",
+          "description": "Undertextning av filmmaterial (svenska – svenska)."
+        },
+        {
+          "title": "Logoped",
+          "date": "september 2011 – maj 2016",
+          "institution": "Region Örebro",
+          "description": "Teamarbete vid Barn- och ungdomshabiliteringen i Karlskoga. Bedömning och behandling av barn 0–18 år med tal-, språk- och kommunikationssvårigheter."
+        },
+        {
+          "title": "Logoped",
+          "date": "augusti 2010 – september 2011",
+          "institution": "Region Gotland",
+          "description": "Teamarbete vid Habiliteringen i Visby. Bedömning och behandling av barn 0–12 år med tal-, språk- och kommunikationssvårigheter. Behandlingsgrupper."
+        }
+      ]
+    },
+    "abroad_experience": {
+      "title": "Utlandserfarenhet",
+      "countries": [
+        {
+          "country": "Spanien",
+          "experiences": [
+            {
+              "title": "Universidad de Alcalá",
+              "date": "september 2003 – juni 2004",
+              "description": "Läste spanska på avancerad nivå."
+            },
+            {
+              "title": "Academia Mester (Granada)",
+              "date": "september 2002 – december 2002",
+              "description": "Läste spanska på medelnivå."
+            }
+          ]
+        },
+        {
+          "country": "Japan",
+          "experiences": [
+            {
+              "title": "Ryukoku University",
+              "date": "mars 2007 – januari 2008",
+              "description": "Läste bland annat japanska och japansk kultur."
+            },
+            {
+              "title": "International Exchange Center Osaka",
+              "date": "januari 2007 – mars 2007",
+              "description": "Läste japanska på nybörjarnivå."
+            }
+          ]
+        }
+      ]
+    },
+    "language_skills": {
+      "title": "Språkkunskaper",
+      "languages": [
+        {
+          "level": "Modersmål",
+          "languages": [
+            {
+              "name": "Svenska",
+              "description": "Mycket goda kunskaper i tal och skrift."
+            }
+          ]
+        },
+        {
+          "level": "Hög nivå",
+          "languages": [
+            {
+              "name": "Spanska",
+              "description": "Goda kunskaper i tal och skrift. Pratar spanska i hemmet."
+            },
+            {
+              "name": "Engelska",
+              "description": "Goda kunskaper i tal och skrift."
+            }
+          ]
+        }
+      ]
+    },
+    "button_show_cv": {
+      "text_opened": "Dölj CV",
+      "link_to_project": "Länk till projektet:"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "intro": "Här är ett urval av de projekt som jag skapat de senaste åren. Klicka gärna vidare på länkarna och titta på sidorna.",
+    "projects": [
+      {
+        "title": "World Facts – en flaggapp",
+        "year": "2024",
+        "tags": ["React", "API", "Användartestning", "React Bootstrap"],
+        "description": [
+          "Flaggappen är min första React-app. Syftet var att skapa en app för en specifik målgrupp med ett JavaScript-ramverk och ett REST API.",
+          "Flaggappen inhämtar data via <strong>API:et REST Countries</strong>. Appen designades utifrån målgruppen \"vetgiriga skolbarn som vill lära sig mer om flaggor\".",
+          "Användaren kan träna på flaggor både genom att vända på flaggkort samt genom en flagg-quiz.",
+          "Under utvecklingens gång utförde jag <strong>användartester på målgruppen</strong>. Utifrån detta förtydligade jag till exempel feedbacken från quizen genom att kombinera bild och text."
+        ],
+        "image_alt": "Flaggappen visas på en tablet, en laptop och en mobil.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/JSR-proj/build/",
+        "project_link_text": "Till flaggappen World Facts"
+      },
+      {
+        "title": "Cecis Design – animering med jQuery",
+        "year": "2023",
+        "tags": ["HTML", "CSS", "jQuery"],
+        "description": [
+          "Syftet med detta projekt var att skapa animationer med hjälp av jQuery. Jag lade till jQuery-kod till en enkel dummysida från en tidigare uppgift.",
+          "Min tanke var att lägga till <strong>diskret animering</strong> som inte distraherar användaren i onödan."
+        ],
+        "image_alt": "Webbplatsen visas på en tablet, en laptop och en mobil.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/WUH_original_JQ/index.html",
+        "project_link_text": "Till Ceci's Design"
+      },
+      {
+        "title": "Föreningssida med full CRUD",
+        "year": "2023",
+        "tags": ["PHP", "Bootstrap", "Databaser"],
+        "description": [
+          "Syftet med det här projektet var att skapa en del av en förenings webbplats med hjälp av PHP. Stilsättning gjorde jag med Bootstrap.",
+          "Kraven för uppgiften var följande:"
+        ],
+        "list": [
+          "Startsidan ska lista föreningens fem nästkommande aktiviteter. Enbart aktuella aktiviteter ska hämtas från databasen",
+          "Webbplatsen ska ha en lösenordsskyddad admin-sida med två olika behörighetsnivåer. Administratören med högst behörighet ska kunna lägga till, visa, uppdatera och ta bort aktiviteter (CRUD).",
+          "Sidan ska skyddas mot SQL-injektioner och ha hashade lösenord."
+        ],
+        "image_alt": "Webbplatsens administrationssida och startsida visas på två laptopar.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/HGF_Rabylund_VG/index.php",
+        "project_link_text": "Till föreningssidan"
+      },
+      {
+        "title": "Birgittas Klensmide – ett SEO-projekt",
+        "year": "2024",
+        "tags": ["HTML", "CSS", "SEO", "AI"],
+        "description": [
+          "I det här projektet var syftet att skapa en webbplats till den påhittade klensmeden Birgitta med fokus på sökmotoroptimering (SEO).",
+          "Mitt mål var framförallt att skapa ett relevant innehåll utifrån den tilltänkta målgruppen och företagets värderingar.",
+          "Majoriteten av bilderna på sidan tog jag fram med hjälp av Bings AI-verktyg Image Creator. Texten formulerade jag dock själv. Jag arbetade även med exempelvis:"
+        ],
+        "list": [
+          "analys av relevanta nyckelord",
+          "bildoptimering och alt-texter",
+          "Google Search Console",
+          "SEO-testverktyg."
+        ],
+        "image_alt": "Webbplatsens Birgittas Klensmide visas på en tablet, en laptop och en mobil.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/birgittas_klensmide/",
+        "project_link_text": "Till Birgittas Klensmide"
+      },
+      {
+        "title": "Munamii Cakery - ett Tailwind-projekt",
+        "year": "2024",
+        "tags": ["React", "Tailwind", "AI"],
+        "description": [
+          "I det här frontendprojektet var syftet att skapa en webbplats för företaget Munamii Cakery, som tillverkar cupcakes och bröllopstårtor.",
+          "Appen är gjord i React och stylad med Tailwind. Samtliga bilder och texter på sidan är AI-genererade med hjälp av olika verktyg."
+        ],
+        "image_alt": "Webbplatsens Munamii Cakery visas på en tablet, en laptop och en mobil.",
+        "project_link": "https://ceke00.github.io/munamii-cakery/",
+        "project_link_text": "Till Munamii Cakery"
+      },
+      {
+        "title": "Portfoliosida",
+        "year": "2024",
+        "tags": ["React", "CSS", "Figma"],
+        "description": [
+          "Den här portfoliosidan har som syfte att presentera mig själv och vad jag lärt mig under de senaste åren.",
+          "I ett första steg i designprocessen skapade jag en prototyp i Figma. De tecknade bilderna på sidan hade jag sedan tidigare skapat när jag läste en kurs i grafisk design.",
+          "Utifrån prototypen i Figma byggde jag sedan sidan i React."
+        ],
+        "image_alt": "Portfoliosidan visas på en tablet, en laptop och en mobil."
+      }
+    ]
+  },
+
+  "common": {
+    "opens_new_window": "Öppnas i nytt fönster",
+    "link_to_project": "Länk till projektet:"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": {
+      "paragraphs": [
+        {
+          "paragraph": "Kontakta mig via ",
+          "link": "https://www.linkedin.com/in/cecilia-egevad/",
+          "link_text": "min LinkedIn-sida."
+        },
+        {
+          "paragraph": "Besök ",
+          "link": "https://github.com/Ceke00/",
+          "link_text": "min GitHub."
+        }
+      ]
+    },
+    "picture_at": {
+      "alt": "Cecilia Egevad's logo är ett snabel-a som ser handritat ut."
+    },
+    "copyright": "&copy; Cecilia Egevad, 2024"
+  }
+}
