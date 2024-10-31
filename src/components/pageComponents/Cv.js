@@ -22,17 +22,31 @@ function Cv({ toggleVisibility }) {
               <FaUniversity aria-hidden="true" /> {t("cv.studies.title")}
             </h3>
             <div className="row">
-              <div className="programs sub-part">
-                <h4>{t("cv.studies.programs.title")}</h4>
-                {t("cv.studies.programs.content", { returnObjects: true }).map(
-                  (program, index) => (
+              <div>
+                <div className="vocational sub-part">
+                  <h4>{t("cv.studies.vocational_training.title")}</h4>
+                  {t("cv.studies.vocational_training.content", {
+                    returnObjects: true,
+                  }).map((vocational_training, index) => (
+                    <div className="item" key={index}>
+                      <h5>{vocational_training.title}</h5>
+                      <p className="date">{vocational_training.date}</p>
+                      <p>{vocational_training.institution}</p>
+                    </div>
+                  ))}
+                </div>
+                <div className="programs sub-part">
+                  <h4>{t("cv.studies.programs.title")}</h4>
+                  {t("cv.studies.programs.content", {
+                    returnObjects: true,
+                  }).map((program, index) => (
                     <div className="item" key={index}>
                       <h5>{program.title}</h5>
                       <p className="date">{program.date}</p>
                       <p>{program.institution}</p>
                     </div>
-                  )
-                )}
+                  ))}
+                </div>
               </div>
               <div className="courses sub-part">
                 <h4>{t("cv.studies.courses.title")}</h4>

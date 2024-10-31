@@ -80,6 +80,19 @@
         "Mitt examensarbete hade titeln “Digital tillgänglighet vid svenska högskolor och universitet”. Jag och min samarbetspartner utförde både <strong>manuell och automatisk tillgänglighetstestning </strong>på alla statliga högre lärosäten i Sverige."
       ]
     },
+    "current_studies": {
+      "title": "Fullstack - pågående vidareutbildning",
+      "paragraphs": [
+        "Sedan hösten 2024 går jag en påbyggnadsutbildning inom fullstackutveckling på Lexicon i Malmö. Utbildningen innehåller praktiskt arbete med olika projekt och under perioden mars-juni 2025 har jag APL (arbetsplatsförlagt lärande).",
+        "Utbildningen sträcker sig över ett år och innehåller bland annat följande: "
+      ],
+      "list": [
+        "Backend (.NET fullstack, databasmetodik, Entity Framework, LINQ, ASP.NET Webb, Azure & SQL i Microsoft SQL Server)",
+        "Frontend-utveckling (Typescript, Tailwind, JQUERY, React)",
+        "Metodik & verktyg (Agile & Scrum, Testmetodik, Cloud, Databaskoncept)",
+        "Python & AI."
+      ]
+    },
     "skills": {
       "title": "Kunskapsnivå inom olika områden",
       "intro": "Här är en översikt över vad jag kan, uppdelat efter kunskapsnivå.",
@@ -152,6 +165,16 @@
     "title": "Aktuellt CV",
     "studies": {
       "title": "Studiemeriter i urval",
+      "vocational_training": {
+        "title": "Påbyggnadsutbildning",
+        "content": [
+          {
+            "title": "Fullstack för systemutvecklare ",
+            "date": "september 2024 – pågående",
+            "institution": "Lexicon"
+          }
+        ]
+      },
       "programs": {
         "title": "Program",
         "content": [

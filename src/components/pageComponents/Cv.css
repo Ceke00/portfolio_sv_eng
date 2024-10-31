@@ -50,6 +50,7 @@
 .close-button {
 	align-self: center;
 }
+#cv .row{justify-content: space-between;}
 
 
 @media (max-width: 710px) {

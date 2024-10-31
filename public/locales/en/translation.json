@@ -80,6 +80,20 @@
         "My thesis was titled “Digital accessibility at Swedish universities and colleges”. My partner and I conducted both <strong>manual and automatic accessibility testing</strong> at all state higher education institutions in Sweden."
       ]
     },
+    "current_studies": {
+      "title": "Fullstack - Ongoing Advanced Training",
+      "paragraphs": [
+        "Since the fall of 2024, I have been attending an advanced training program in fullstack development at Lexicon in Malmö. The program includes practical work on various projects, and from March to June 2025, I will have workplace-based learning (APL).",
+        "The program spans one year and includes the following topics: "
+      ],
+      "list": [
+        "Backend (.NET fullstack, database methodology, Entity Framework, LINQ, ASP.NET Web, Azure & SQL in Microsoft SQL Server)",
+        "Frontend development (Typescript, Tailwind, JQUERY, React)",
+        "Methodology & tools (Agile & Scrum, Testing methodology, Cloud, Database concepts)",
+        "Python & AI."
+      ]
+    },
+
     "skills": {
       "title": "Skill level in different areas",
       "intro": "Here is an overview of what I can do, divided by skill level.",
@@ -151,6 +165,17 @@
     "title": "Current CV",
     "studies": {
       "title": "Selected Academic Achievements",
+
+      "vocational_training": {
+        "title": "Vocational Training",
+        "content": [
+          {
+            "title": "Fullstack for Software Developers",
+            "date": "September 2024 – Ongoing",
+            "institution": "Lexicon"
+          }
+        ]
+      },
       "programs": {
         "title": "Programs",
         "content": [
@@ -410,12 +435,17 @@
   "contact": {
     "title": "Contact",
     "intro": {
-      "paragraphs":[{
-      "paragraph": "Contact me via ","link":"https://www.linkedin.com/in/cecilia-egevad/",
-      "link_text": "my LinkedIn page."},
-      {"paragraph":"Visit ",
-      "link":"https://github.com/Ceke00/",
-      "link_text":"my Github page."}
+      "paragraphs": [
+        {
+          "paragraph": "Contact me via ",
+          "link": "https://www.linkedin.com/in/cecilia-egevad/",
+          "link_text": "my LinkedIn page."
+        },
+        {
+          "paragraph": "Visit ",
+          "link": "https://github.com/Ceke00/",
+          "link_text": "my Github page."
+        }
       ]
     },
     "picture_at": {

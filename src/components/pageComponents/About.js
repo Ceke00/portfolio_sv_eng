@@ -11,6 +11,8 @@ import illu from "./../../images/Cecilia_cirkel_300.webp";
 import illu_s from "./../../images/Cecilia_cirkel_270.webp";
 import book from "./../../images/bokuppslag_300.webp";
 import book_s from "./../../images/bokuppslag_270.webp";
+import network_300 from "./../../images/networking_300.webp"
+import network_270 from "./../../images/networking_270.webp";
 import {
   DiBootstrap,
   DiAngularSimple,
@@ -75,6 +77,7 @@ function About() {
           )}
         </div>
       </div>
+      {/* career change */}
       <div className="row">
         <div>
           <h3>{t("about.career_change.title")}</h3>
@@ -132,9 +135,10 @@ function About() {
           </figure>
         </div>
       </div>
+      {/* university exam */}
       <div className="row">
         <div className="img last col center">
-          <picture>
+          <picture data-aos="zoom-in" data-aos-delay="100">
             <source media="(min-width:340px)" srcSet={book} />
             <img src={book_s} alt="" />
           </picture>
@@ -153,6 +157,42 @@ function About() {
           )}
         </div>
       </div>
+      {/* current studies */}
+      <div className="row">
+        <div>
+          <h3>{t("about.current_studies.title")}</h3>
+          {t("about.current_studies.paragraphs", { returnObjects: true }).map(
+            (paragraph, index) => (
+              <p key={index}>
+                <Trans>{paragraph}</Trans>
+              </p>
+            )
+          )}
+          <ul>
+            {t("about.current_studies.list", { returnObjects: true }).map(
+              (item, index) => (
+                <li key={index}>
+                  <Trans>{item}</Trans>
+                </li>
+              )
+            )}
+          </ul>
+        </div>
+
+        <div className="img col">
+          <div data-aos="zoom-in" data-aos-delay="100">
+            <picture>
+              <source
+                className="round-image"
+                media="(min-width:340px)"
+                srcSet={network_300}
+              />
+              <img className="round-image" alt="" src={network_270} />
+            </picture>
+          </div>
+        </div>
+      </div>
+      {/* Skills overview */}
       <div className="space-up">
         <h3>{t("about.skills.title")}</h3>
         <p>{t("about.skills.intro")}</p>
