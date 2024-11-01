@@ -44,21 +44,21 @@
     "title": "About me",
     "intro": {
       "paragraphs": [
-        "My name is Cecilia Egevad and I have a broad education in web development. Previously, I am also a licensed speech therapist and I am particularly passionate about making the web accessible to everyone.",
+        "My name is Cecilia Egevad and I have an extensive background in web development. I am also a licensed speech therapist and I am particularly passionate about making the web accessible to everyone.",
         "I am now looking for new challenges where I can continue to grow as a developer. I am curious and enjoy a solution-focused approach, preferably in a team."
       ]
     },
     "career_change": {
       "title": "Career change from speech therapist to web developer",
       "paragraphs": [
-        "For several years I worked as a speech therapist in child and youth habilitation. In 2020, I decided to try something new and started taking individual courses in <strong>graphic design and programming</strong>. For example, I studied the following:"
+        "For several years I worked as a speech therapist in child and youth habilitation. In 2020, I decided to try something new and started taking courses in <strong>graphic design and programming</strong>. For example, I studied the following:"
       ],
       "list": ["Python", "JAVA", "Digital image processing (Photoshop(."]
     },
     "accessibility_course": {
       "title": "Exciting course on digital accessibility",
       "paragraphs": [
-        "In 2021, I took an extra rewarding course on <strong>digital accessibility</strong> – Universal design of digital accessibility. The course included both practical and theoretical elements in areas such as:"
+        "In 2021, I took a particularly rewarding course on <strong>digital accessibility</strong> – Universal design of digital accessibility. The course included both practical and theoretical elements in areas such as:"
       ],
       "list": [
         "writing in plain language",
@@ -75,15 +75,15 @@
     "university_exam": {
       "title": "University degree in web development",
       "paragraphs": [
-        "After taking several individual courses, I wanted to tie everything together. In the fall of 2022, I therefore started the Webmaster program (120 credits) at University West.",
-        "The education is broad and includes everything from <strong>front-end and back-end to UX design</strong>. During the education, I have, for example, created pages using React, Angular, and Vue, but also designed databases and created my own APIs.",
-        "My thesis was titled “Digital accessibility at Swedish universities and colleges”. My partner and I conducted both <strong>manual and automatic accessibility testing</strong> at all state higher education institutions in Sweden."
+        "After taking several courses, I wanted to wrap things up. In the fall of 2022, I therefore started the Webmaster program (120 credits) at University West.",
+        "The program is broad and includes everything from <strong>front-end and back-end to UX design</strong>. During the studies, I have, for example, created apps using React, Angular, and Vue, but also designed databases and created my own APIs.",
+        "My thesis was titled “Digital accessibility at Swedish public universities”. My partner and I conducted both <strong>manual and automatic accessibility testing</strong> at all public universities in Sweden."
       ]
     },
     "current_studies": {
       "title": "Fullstack - Ongoing Advanced Training",
       "paragraphs": [
-        "Since the fall of 2024, I have been attending an advanced training program in fullstack development at Lexicon in Malmö. The program includes practical work on various projects, and from March to June 2025, I will have workplace-based learning (APL).",
+        "Since autumn 2024, I have been attending an advanced training program in fullstack development at Lexicon in Malmö. The program includes practical work on various projects, and from March to June 2025, I will have workplace-based learning (APL).",
         "The program includes the following topics: "
       ],
       "list": [
@@ -152,8 +152,8 @@
     "work_during_studies": {
       "title": "Work during studies",
       "paragraphs": [
-        "Alongside my studies, I have also learned a lot through the jobs I have had on the side. For example, I have worked with subtitling and accessibility adaptation of image and text material.",
-        "In the final year of my education, I also sat on the institution's program council as a student representative, which gave an interesting insight into the university's development work."
+        "Alongside my university studies, I have also learned a lot through the jobs I have had on the side. For example, I have worked with subtitling and accessibility adaptation of image and text material.",
+        "In the final year of my Webmaster studies, I also sat on the institution's program council as a student representative, which gave an interesting insight into the university's development work."
       ]
     },
     "button_show_cv": {
@@ -362,7 +362,7 @@
         "year": "2023",
         "tags": ["HTML", "CSS", "jQuery"],
         "description": [
-          "The purpose of this project was to create animations using jQuery. I added jQuery code to a simple dummy page from a previous assignment.",
+          "The purpose of this project was to create animations using jQuery. I added jQuery code to a simple sample page from a previous assignment.",
           "My idea was to add <strong>subtle animation</strong> that does not distract the user unnecessarily."
         ],
         "image_alt": "The website is displayed on a tablet, a laptop, and a mobile phone.",

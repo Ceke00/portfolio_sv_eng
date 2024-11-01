@@ -17,6 +17,9 @@ import jquery_xs from "./../../images/jquery_270_169.png";
 import portfolio from "./../../images/portfolio_new_400_250.png";
 import portfolio_s from "./../../images/portfolio_new_300_188.png";
 import portfolio_xs from "./../../images/portfolio_new_270_169.png";
+import munamii from "./../../images/munamii_400_250.png";
+import munamii_s from "./../../images/munamii_300_188.png";
+import munamii_xs from "./../../images/munamii_270_169.png";
 
 function Portfolio() {
   const { t } = useTranslation();
@@ -266,11 +269,11 @@ function Portfolio() {
         </div>
         <div className="img col" data-aos="zoom-in" data-aos-delay="100">
           <picture>
-            <source media="(min-width:900px)" srcSet={portfolio} />
-            <source media="(min-width:711px)" srcSet={portfolio_s} />
-            <source media="(min-width:500px)" srcSet={portfolio} />
-            <source media="(min-width:340px)" srcSet={portfolio_s} />
-            <img src={portfolio_xs} alt={t("portfolio.projects.4.image_alt")} />
+            <source media="(min-width:900px)" srcSet={munamii} />
+            <source media="(min-width:711px)" srcSet={munamii_s} />
+            <source media="(min-width:500px)" srcSet={munamii} />
+            <source media="(min-width:340px)" srcSet={munamii_s} />
+            <img src={munamii_xs} alt={t("portfolio.projects.4.image_alt")} />
           </picture>
           <div className="space-up">
             <h4>{t("common.link_to_project")}</h4>
