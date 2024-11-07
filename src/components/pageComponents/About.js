@@ -57,7 +57,7 @@ function About() {
 
   return (
     <section id="about" tabIndex="-1" aria-labelledby="sv-about">
-      <h2 id="sv-about">Om mig</h2>
+      <h2 id="sv-about">{t("about.title")}</h2>
       <div className="intro row">
         <div className="img last col" data-aos="zoom-in" data-aos-delay="100">
           <picture>

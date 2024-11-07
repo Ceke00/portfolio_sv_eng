@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import atlogo from "./../../images/at_only_new_300.svg";
 import atlogo_s from "./../../images/at_only_new_270.svg";
