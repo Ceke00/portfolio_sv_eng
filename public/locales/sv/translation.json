@@ -347,21 +347,20 @@
           "Användaren kan träna på flaggor både genom att vända på flaggkort samt genom en flagg-quiz.",
           "Under utvecklingens gång utförde jag <strong>användartester på målgruppen</strong>. Utifrån detta förtydligade jag till exempel feedbacken från quizen genom att kombinera bild och text."
         ],
-        "image_alt": "Flaggappen visas på en tablet, en laptop och en mobil.",
+        "image_alt": "Flaggappen visas på en surfplatta, en bärbar dator och en mobiltelefon.",
         "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/JSR-proj/build/",
         "project_link_text": "Till flaggappen World Facts"
       },
       {
-        "title": "Cecis Design – animering med jQuery",
-        "year": "2023",
-        "tags": ["HTML", "CSS", "jQuery"],
+        "title": "Relaxguiden – finn ro i vardagen",
+        "year": "2024",
+        "tags": ["React", "React Bootstrap", "SCSS"],
         "description": [
-          "Syftet med detta projekt var att skapa animationer med hjälp av jQuery. Jag lade till jQuery-kod till en enkel dummysida från en tidigare uppgift.",
-          "Min tanke var att lägga till <strong>diskret animering</strong> som inte distraherar användaren i onödan."
+          "Relaxguiden är en app för dig som snabbt vill hitta en passande video för återhämtning. Filtrera videolistan efter typ av återhämtning, tidstillgång och språk för att hitta det som passar dig bäst.", "Appen är gjord i React och stylad med med hjälp av React Bootstrap och SCSS."
         ],
-        "image_alt": "Webbplatsen visas på en tablet, en laptop och en mobil.",
-        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/WUH_original_JQ/index.html",
-        "project_link_text": "Till Ceci's Design"
+        "image_alt": "Relaxguiden visas på en surfplatta, en bärbar dator och en mobiltelefon.",
+        "project_link": "https://ceke00.github.io/relaxguiden/#/",
+        "project_link_text": "Till Relaxguiden"
       },
       {
         "title": "Föreningssida med full CRUD",
@@ -376,7 +375,7 @@
           "Webbplatsen ska ha en lösenordsskyddad admin-sida med två olika behörighetsnivåer. Administratören med högst behörighet ska kunna lägga till, visa, uppdatera och ta bort aktiviteter (CRUD).",
           "Sidan ska skyddas mot SQL-injektioner och ha hashade lösenord."
         ],
-        "image_alt": "Webbplatsens administrationssida och startsida visas på två laptopar.",
+        "image_alt": "Webbplatsens administrationssida och startsida visas på två bärbara datorer.",
         "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/HGF_Rabylund_VG/index.php",
         "project_link_text": "Till föreningssidan"
       },
@@ -395,9 +394,21 @@
           "Google Search Console",
           "SEO-testverktyg."
         ],
-        "image_alt": "Webbplatsens Birgittas Klensmide visas på en tablet, en laptop och en mobil.",
+        "image_alt": "Webbplatsens Birgittas Klensmide visas på en surfplatta, en bärbar dator och en mobiltelefon.",
         "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/birgittas_klensmide/",
         "project_link_text": "Till Birgittas Klensmide"
+      },
+      {
+        "title": "Cecis Design – animering med jQuery",
+        "year": "2023",
+        "tags": ["HTML", "CSS", "jQuery"],
+        "description": [
+          "Syftet med detta projekt var att skapa animationer med hjälp av jQuery. Jag lade till jQuery-kod till en enkel dummysida från en tidigare uppgift.",
+          "Min tanke var att lägga till <strong>diskret animering</strong> som inte distraherar användaren i onödan."
+        ],
+        "image_alt": "Webbplatsen visas på en surfplatta, en bärbar dator och en mobiltelefon.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/WUH_original_JQ/index.html",
+        "project_link_text": "Till Ceci's Design"
       },
       {
         "title": "Munamii Cakery - ett Tailwind-projekt",
@@ -407,20 +418,20 @@
           "I det här frontendprojektet var syftet att skapa en webbplats för företaget Munamii Cakery, som tillverkar cupcakes och bröllopstårtor.",
           "Appen är gjord i React och stylad med Tailwind. Samtliga bilder och texter på sidan är AI-genererade med hjälp av olika verktyg."
         ],
-        "image_alt": "Webbplatsens Munamii Cakery visas på en tablet, en laptop och en mobil.",
+        "image_alt": "Webbplatsens Munamii Cakery visas på en surfplatta, en bärbar dator och en mobiltelefon.",
         "project_link": "https://ceke00.github.io/munamii-cakery/",
         "project_link_text": "Till Munamii Cakery"
       },
       {
         "title": "Portfoliosida",
         "year": "2024",
-        "tags": ["React", "CSS", "Figma"],
+        "tags": ["React", "CSS", "Figma", "i18n"],
         "description": [
           "Den här portfoliosidan har som syfte att presentera mig själv och vad jag lärt mig under de senaste åren.",
           "I ett första steg i designprocessen skapade jag en prototyp i Figma. De tecknade bilderna på sidan hade jag sedan tidigare skapat när jag läste en kurs i grafisk design.",
           "Utifrån prototypen i Figma byggde jag sedan sidan i React."
         ],
-        "image_alt": "Portfoliosidan visas på en tablet, en laptop och en mobil."
+        "image_alt": "Portfoliosidan visas på en surfplatta, en bärbar dator och en mobiltelefon."
       }
     ]
   },

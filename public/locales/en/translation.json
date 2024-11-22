@@ -358,16 +358,16 @@
         "project_link_text": "To the flag app World Facts"
       },
       {
-        "title": "Ceci's Design – animation with jQuery",
-        "year": "2023",
-        "tags": ["HTML", "CSS", "jQuery"],
+        "title": "Relaxguiden – Find Peace in Everyday Life",
+        "year": "2024",
+        "tags": ["React", "React Bootstrap", "SCSS"],
         "description": [
-          "The purpose of this project was to create animations using jQuery. I added jQuery code to a simple sample page from a previous assignment.",
-          "My idea was to add <strong>subtle animation</strong> that does not distract the user unnecessarily."
+          "Relaxguiden is an app for those who quickly want to find a suitable video for relaxation. Filter the video list by type of relaxation, available time, and language to find what suits you best.",
+          "The app is built with React and styled with React Bootstrap and SCSS."
         ],
-        "image_alt": "The website is displayed on a tablet, a laptop, and a mobile phone.",
-        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/WUH_original_JQ/index.html",
-        "project_link_text": "To Ceci's Design"
+        "image_alt": "Relaxguiden displayed on a tablet, a laptop, and a mobile phone.",
+        "project_link": "https://ceke00.github.io/relaxguiden/#/",
+        "project_link_text": "To Relaxguiden app"
       },
       {
         "title": "Association Page with Full CRUD",
@@ -406,6 +406,18 @@
         "project_link_text": "To Birgitta's Blacksmithing"
       },
       {
+        "title": "Ceci's Design – animation with jQuery",
+        "year": "2023",
+        "tags": ["HTML", "CSS", "jQuery"],
+        "description": [
+          "The purpose of this project was to create animations using jQuery. I added jQuery code to a simple sample page from a previous assignment.",
+          "My idea was to add <strong>subtle animation</strong> that does not distract the user unnecessarily."
+        ],
+        "image_alt": "The website is displayed on a tablet, a laptop, and a mobile phone.",
+        "project_link": "https://webbkurs.ei.hv.se/~ceeg0001/WUH_original_JQ/index.html",
+        "project_link_text": "To Ceci's Design"
+      },
+      {
         "title": "Munamii Cakery - a Tailwind Project",
         "year": "2024",
         "tags": ["React", "Tailwind", "AI"],
@@ -421,7 +433,7 @@
       {
         "title": "Portfolio Page",
         "year": "2024",
-        "tags": ["React", "CSS", "Figma"],
+        "tags": ["React", "CSS", "Figma", "i18n"],
         "description": [
           "The purpose of this portfolio page is to present myself and what I have learned in recent years.",
           "In the first step of the design process, I created a prototype in Figma. The illustrated images on the page were created earlier when I took a course in graphic design.",

@@ -20,6 +20,9 @@ import portfolio_xs from "./../../images/portfolio_new_270_169.png";
 import munamii from "./../../images/munamii_400_250.png";
 import munamii_s from "./../../images/munamii_300_188.png";
 import munamii_xs from "./../../images/munamii_270_169.png";
+import relax from "./../../images/relax_400_250.png"
+import relax_s from "./../../images/relax_300_188.png";
+import relax_xs from "./../../images/relax_270_169.png";
 
 function Portfolio() {
   const { t } = useTranslation();
@@ -80,7 +83,7 @@ function Portfolio() {
       </div>
       <div className="line"></div>
 
-      {/* JQuery */}
+      {/* Relax */}
       <div className="row rev">
         <div className="text">
           <h3>{t("portfolio.projects.1.title")}</h3>
@@ -106,11 +109,11 @@ function Portfolio() {
         </div>
         <div className="img col last" data-aos="zoom-in" data-aos-delay="100">
           <picture>
-            <source media="(min-width:900px)" srcSet={jquery} />
-            <source media="(min-width:711px)" srcSet={jquery_s} />
-            <source media="(min-width:500px)" srcSet={jquery} />
-            <source media="(min-width:340px)" srcSet={jquery_s} />
-            <img src={jquery_xs} alt={t("portfolio.projects.1.image_alt")} />
+            <source media="(min-width:900px)" srcSet={relax} />
+            <source media="(min-width:711px)" srcSet={relax_s} />
+            <source media="(min-width:500px)" srcSet={relax} />
+            <source media="(min-width:340px)" srcSet={relax_s} />
+            <img src={relax_xs} alt={t("portfolio.projects.1.image_alt")} />
           </picture>
           <div className="space-up">
             <h4>{t("common.link_to_project")}</h4>
@@ -242,8 +245,8 @@ function Portfolio() {
         </div>
       </div>
       <div className="line"></div>
-
-      {/* tailwind page */}
+    
+      {/* JQuery */}
       <div className="row">
         <div className="text">
           <h3>{t("portfolio.projects.4.title")}</h3>
@@ -267,13 +270,13 @@ function Portfolio() {
             )
           )}
         </div>
-        <div className="img col" data-aos="zoom-in" data-aos-delay="100">
+        <div className="img col last" data-aos="zoom-in" data-aos-delay="100">
           <picture>
-            <source media="(min-width:900px)" srcSet={munamii} />
-            <source media="(min-width:711px)" srcSet={munamii_s} />
-            <source media="(min-width:500px)" srcSet={munamii} />
-            <source media="(min-width:340px)" srcSet={munamii_s} />
-            <img src={munamii_xs} alt={t("portfolio.projects.4.image_alt")} />
+            <source media="(min-width:900px)" srcSet={jquery} />
+            <source media="(min-width:711px)" srcSet={jquery_s} />
+            <source media="(min-width:500px)" srcSet={jquery} />
+            <source media="(min-width:340px)" srcSet={jquery_s} />
+            <img src={jquery_xs} alt={t("portfolio.projects.1.image_alt")} />
           </picture>
           <div className="space-up">
             <h4>{t("common.link_to_project")}</h4>
@@ -292,7 +295,8 @@ function Portfolio() {
         </div>
       </div>
       <div className="line"></div>
-      {/* portfolio page */}
+
+      {/* tailwind page */}
       <div className="row rev">
         <div className="text">
           <h3>{t("portfolio.projects.5.title")}</h3>
@@ -318,11 +322,60 @@ function Portfolio() {
         </div>
         <div className="img col" data-aos="zoom-in" data-aos-delay="100">
           <picture>
+            <source media="(min-width:900px)" srcSet={munamii} />
+            <source media="(min-width:711px)" srcSet={munamii_s} />
+            <source media="(min-width:500px)" srcSet={munamii} />
+            <source media="(min-width:340px)" srcSet={munamii_s} />
+            <img src={munamii_xs} alt={t("portfolio.projects.5.image_alt")} />
+          </picture>
+          <div className="space-up">
+            <h4>{t("common.link_to_project")}</h4>
+            <p>
+              <a
+                href={t("portfolio.projects.5.project_link")}
+                target="_blank"
+                rel="noreferrer"
+                tabIndex="0"
+              >
+                {t("portfolio.projects.5.project_link_text")}
+                <RxOpenInNewWindow aria-label={t("common.opens_new_window")} />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="line"></div>
+      {/* portfolio page */}
+      <div className="row">
+        <div className="text">
+          <h3>{t("portfolio.projects.6.title")}</h3>
+          <div className="tags">
+            <p className="tag year">{t("portfolio.projects.6.year")}</p>
+            {t("portfolio.projects.6.tags", { returnObjects: true }).map(
+              (tag, index) => (
+                <p key={index} className="tag">
+                  {tag}
+                </p>
+              )
+            )}
+          </div>
+          {t("portfolio.projects.6.description", { returnObjects: true }).map(
+            (paragraph, index) => (
+              <p key={index}>
+                <Trans i18nKey={`portfolio.projects.6.description.${index}`}>
+                  {paragraph}
+                </Trans>
+              </p>
+            )
+          )}
+        </div>
+        <div className="img col" data-aos="zoom-in" data-aos-delay="100">
+          <picture>
             <source media="(min-width:900px)" srcSet={portfolio} />
             <source media="(min-width:711px)" srcSet={portfolio_s} />
             <source media="(min-width:500px)" srcSet={portfolio} />
             <source media="(min-width:340px)" srcSet={portfolio_s} />
-            <img src={portfolio_xs} alt={t("portfolio.projects.5.image_alt")} />
+            <img src={portfolio_xs} alt={t("portfolio.projects.6.image_alt")} />
           </picture>
         </div>
       </div>
